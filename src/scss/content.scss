@@ -1,0 +1,46 @@
+.bg-sec{background-color:red;}
+.docname p{font-size:14px; margin-bottom:0px;}
+.service-level p{font-size:28px; margin-bottom:0px;}
+
+/*customer satisfaction */
+
+
+.app {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  
+  .item {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+  .radio {
+    display: none;
+  }
+  .radio ~ span {
+    font-size: 3rem;
+    filter: grayscale(100);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .radio:checked ~ span {
+    filter: grayscale(0);
+    font-size: 4rem;
+  }
+  .progress{height:8px;}
+  .progress-bar{
+    width:40%
+  }
+  .w-40{width:40%}
+  .w-60{width:60%}
+  
+@media (max-width: 767.98px) { 
+
+}

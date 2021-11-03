@@ -1,0 +1,223 @@
+.bg-sec{background-color:red;}
+.docname p{font-size:14px; margin-bottom:0px;}
+.service-level p{font-size:28px; margin-bottom:0px;}
+
+/*customer satisfaction */
+
+.categories img{width:75%;}
+  
+  .item {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+  .radio {
+    display: none;
+  }
+  .radio ~ span {
+    font-size: 3rem;
+    filter: grayscale(100);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .radio:checked ~ span {
+    filter: grayscale(0);
+    font-size: 4rem;
+  }
+  .progress-bar{
+    width:40%
+  }
+  
+
+  /* progress bar css */
+  .one, .two, .three{
+    position:absolute;
+	margin-top:-10px;
+	z-index:1;
+	height:40px;
+	width:40px;
+	border-radius:25px;
+	
+}
+.one{
+	left:40%;
+}
+.one p{
+	line-height: 12px;
+}
+.two{
+	left:50%;
+}
+.three{
+	left:75%;
+}
+.primary-color{
+	background-color:#4989bd;
+}
+.success-color{
+	background-color:#5cb85c;
+}
+.danger-color{
+	background-color:#d9534f;
+}
+.warning-color{
+	background-color:#f0ad4e;
+}
+.info-color{
+	background-color:#5bc0de;
+}
+.no-color{
+	background-color:inherit;
+}
+
+
+
+/*speedometer chart css */
+.gauge
+{
+  width: 400px;
+  margin: 10px auto  
+} 
+.gauge-filled
+{
+  fill: steelblue;
+}
+.gauge-empty
+{
+  fill: #dedede;
+}
+.needle, .needle-center
+{
+  fill: #464A4F;
+}
+svg {
+  font: 10px sans-serif;
+}
+  
+@media (max-width: 767.98px) { 
+.categories img{width:50%;}
+
+
+}
+
+// // department view 
+// .wrapper {
+//   width: 600px;
+//   margin: 0 auto;
+// }
+
+.rang {
+  text-align: center;
+}
+
+.rang-title {
+  display: inline-block;
+  width: 200px;
+}
+
+.rang-number {
+  width: 100%;
+  // margin-top: 40px;
+  text-align: center;
+  border-width: 0;
+  font-size: 50px;
+  font-weight: 900;
+  background-color: #fff;
+  color: #0093d7;
+}
+
+.rang-slider[type=range] {
+  width: 100%;
+  margin-top: 40px;
+  -webkit-appearance: none;
+}
+
+.rang-slider[type=range]:focus {
+  outline: none;
+}
+
+.rang-slider[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 20px;
+  border-radius: 25px;
+  background: #0093d7;
+  cursor: pointer;
+}
+
+.rang-slider[type=range]::-webkit-slider-thumb {
+  width: 50px;
+  height: 20px;
+  margin-top: 0;
+  border-radius: 25px;
+  background: #ffc815;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.rang-slider[type=range]:focus::-webkit-slider-runnable-track {
+  background: #a3cd3b;
+}
+
+.meter {
+  display: block;
+  width: 100%;
+  height: 155px;
+  margin: 0 auto;
+}
+
+.meter-left {
+  transform: skewX(-2deg) skewY(1deg);
+  stroke-width: 58;
+  stroke-dashoffset: 253;
+  stroke-dasharray: 120 400;
+  stroke: #199AB7;
+  fill: none;
+}
+
+.meter-center {
+  stroke-width: 56;
+  stroke-dashoffset: 128;
+  stroke-dasharray: 120 400;
+  stroke: #FFC000;
+  fill: none;
+}
+
+.meter-right {
+  transform: skewX(2deg) skewY(1deg);
+  stroke-width: 58;
+  stroke-dashoffset: 5;
+  stroke-dasharray: 120 400;
+  stroke: #ED7D31;
+  fill: none;
+}
+
+.meter-clock {
+  transform: rotate(-54deg);
+  transform-origin: 137px 146px;
+  fill: black;
+}
+
+.meter-circle {
+  fill: black;
+}
+
+
+//patient view two scss
+.highcharts-title{display: none;}
+
+
+
+// Department view two scss
+
+#chart {
+  max-width: 650px;
+  margin: 15px auto;
+}
+
+.fam{width:15%;}
+.fam-ind{width:20%;}
+.ind{width:15%;}

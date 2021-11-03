@@ -1,0 +1,61 @@
+@import 'bootstrap/dist/css/bootstrap.min.css'; 
+@import "~@coreui/coreui/scss/coreui";
+
+
+.c-sidebar {
+    color: #fff;
+    background: #06124e !important ;
+    
+}
+.c-sidebar-nav{background: #06124e;}
+.c-sidebar-brand{
+  padding : 0px
+}
+// .c-sidebar-brand img{width: 10vw;}
+
+
+// .c-sidebar-brand-minimized{
+//   background-image: url("../assets/images/phone.png");
+//   z-index: 30;
+// }
+
+
+// .mainHeader{
+//     background-color: #06124e;
+// }
+
+.c-header-nav-link{
+    color: white
+}
+
+// .c-header .c-header-toggler-icon{
+//     background-image: url('../assets/images/logoMain.svg') !important;
+    
+// }
+
+html:not([dir="rtl"]) .c-sidebar-nav-dropdown-items .c-sidebar-nav-link, html:not([dir="rtl"]) .c-sidebar-nav-dropdown-items .c-sidebar-nav-dropdown-toggle{
+    padding-left: 15px;
+}
+
+.sideNavuserLogo{
+   height: auto;
+   padding: 10px;
+   display: flex;
+  //  justify-content: space-between;
+   align-items: center;
+   border-top: 1px solid gray;
+   border-bottom: 1px solid gray;
+   background-color: #06124e;
+}
+// .userImg{
+//   padding-left: 7px;
+// }
+
+.userImg img{
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.userName{
+  padding-left: 12px;
+}

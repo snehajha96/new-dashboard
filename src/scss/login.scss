@@ -1,0 +1,169 @@
+
+.login-card {
+	min-height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: 0 auto;
+	// background: url("../assets/images/login_bg.jpg");
+	background-image:-webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg,  #084056 0%,#06124e 100%);
+	background-position: center;
+	padding: 30px 12px
+}
+
+.login-card .logo {
+	display: block;
+	margin-bottom: 8px;
+	text-align: center
+}
+
+.login-card .btn-showcase .btn {
+	line-height: 1;
+	padding: 10px 15px;
+	margin: 0
+}
+
+.login-card .btn-showcase .btn+.btn {
+	margin-left: 5px
+}
+
+.login-card .btn-showcase .btn svg {
+	height: 16px;
+	vertical-align: bottom
+}
+
+.login-card .login-main {
+	width: 450px;
+	padding: 40px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 0 37px rgba(8, 21, 66, 0.05);
+	box-shadow: 0 0 37px rgba(8, 21, 66, 0.05);
+	margin: 0 auto;
+	background-color: #fff
+}
+
+.login-card .login-main .theme-form h4 {
+	margin-bottom: 5px; font-weight:700;
+}
+
+.login-card .login-main .theme-form label {
+	font-size: 15px;
+	letter-spacing: 0.4px
+}
+
+.login-card .login-main .theme-form .checkbox label::before {
+	background-color: #f9f9fa;
+	border: 1px solid #dfdfdf
+}
+
+.login-card .login-main .theme-form .or {
+	position: relative
+}
+
+.login-card .login-main .theme-form .or:before {
+	content: "";
+	position: absolute;
+	width: 65%;
+	height: 2px;
+	background-color: #f3f3ff;
+	top: 9px;
+	z-index: 0;
+	right: 0
+}
+
+.login-card .login-main .theme-form input {
+	background-color: #f3f3ff;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease
+}
+
+.login-card .login-main .theme-form input::-webkit-input-placeholder {
+	color: #999
+}
+
+.login-card .login-main .theme-form input:hover,
+.login-card .login-main .theme-form input:focus {
+	border: 1px solid #b9c1cc;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease
+}
+
+.login-card .login-main .theme-form p {
+	margin-bottom: 25px;
+	font-size: 14px;
+	color: #898989
+}
+
+.login-card .login-main .theme-form .form-group {
+	margin-bottom: 10px;
+	position: relative
+}
+
+.login-card .login-main .theme-form .link {
+	position: absolute;
+	top: 10px;
+	right: 0
+}
+.btn-primary {
+    color: #fff;
+    background-color: #06124e;
+    border-color: #06124e;
+}
+
+.login-card .login-main .theme-form .show-hide {
+	top: 50%
+}
+.theme-form .checkbox label {
+    padding-left: 10px;
+}
+.checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.show-hide {
+	position: absolute;
+	top: 52px;
+	right: 20px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+
+.show-hide span {
+	cursor: pointer;
+	font-size: 13px;
+	color: var(--theme-deafult)
+}
+
+.show-hide span.show:before {
+	content: "show"
+}
+
+.show-hide span:before {
+	content: "hide"
+}
+
+.logo img{width:150px}
+.txt-linkedin {
+    color: #0077B5 !important;
+}
+.txt-twitter {
+    color: #6fa2d8 !important;
+}
+.txt-fb {
+    color: #50598e !important;
+}
+.theme-form h6{font-weight:600;}
+.form-group a{color:#199AB7}
