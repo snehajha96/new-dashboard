@@ -16,7 +16,7 @@ const StackedGuage = (props) => {
           endAngle: 90,
           background: {
             backgroundColor:
-              Highcharts.defaultOptions.legend.backgroundColor || '#EEE',
+              Highcharts.defaultOptions.legend.backgroundColor || '#FCAD37',
             innerRadius: '60%',
             outerRadius: '100%',
             shape: 'arc'
@@ -34,7 +34,7 @@ const StackedGuage = (props) => {
         // the value axis
         yAxis: {
           stops: [
-            [0.1, '#55BF3B'], // green
+            [0.1, '#FCAD37'], // green
             [0.5, '#DDDF0D'], // yellow
             [0.9, '#DF5353'] // red
           ],

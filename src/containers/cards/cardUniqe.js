@@ -4,8 +4,8 @@ import '../../scss/card.scss'
 const CardUniqe = () => {
     return (
         <div>
-             <div className="small-box bg-danger">
-              <div className="inner">
+             <div className="small-box bg-#FCAD37">
+              <div className="inner bounce">
                 <h3>65</h3>
                 <p>Unique Visiter</p>
               </div>

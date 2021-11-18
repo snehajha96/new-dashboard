@@ -10,7 +10,7 @@ const LineChartOptions = {
   xAxis: {
     categories: ['January', 'February', 'March', 'April', 'May', 'June']
   },
-  colors: ['#ED7D31', '#199AB7'],
+  colors: ['#FCAD37', '#654F73'],
   series: [
     {
       name: 'Sales',
@@ -37,7 +37,7 @@ const BarChartOptions = {
   xAxis: {
     categories: ['January', 'February', 'March', 'April', 'May', 'June']
   },
-  colors: ['#ED7D31', '#199AB7'],
+  colors: ['#FCAD37', '#654F73'],
   series: [
     {
       name: 'Sales',
@@ -62,7 +62,7 @@ const options = {
   title: {
     text: "Spline chart"
   },
-  colors: [ '#199AB7', '#ED7D31', '#06124e', '#FFC000', '#084056', '#0AFFF0'],
+  colors: [ '#FCAD37', '#FCAD37', '#FCAD37', '#FCAD37', '#FCAD37', '#FCAD37'],
   series: [
     {
       data: [1, 2, 1, 4, 3, 6]
@@ -79,11 +79,11 @@ const otptions = {
     title: {
       text: "Pie chart"
     },
-    colors: [ '#199AB7', '#ED7D31', '#06124e', '#FFC000', '#084056', '#0AFFF0'],
+    colors: [ '#FCAD37', '#654F73','#91BAC5'],
   
   series: [
     {
-      data: [1, 2, 1, 4, 3, 6]
+      data: [1, 2, 1]
     }
   ]
 
@@ -97,7 +97,7 @@ const stacked = {
 title: {
     text: 'Stacked column chart'
 },
-colors: [ '#199AB7', '#ED7D31', '#06124e', '#FFC000', '#084056', '#0AFFF0'],
+colors: [ '#654F73', '#FCAD37', '#91BAC5', '#FFC000', '#084056', '#0AFFF0'],
 xAxis: {
     categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas']
 },
@@ -171,7 +171,7 @@ series: [{
         verticalAlign: 'middle',
         y: 60
     },
-    colors: [ '#199AB7', '#ED7D31', '#06124e', '#FFC000', '#084056', '#0AFFF0'],
+    colors: [ '#654F73', '#FCAD37', '#91BAC5', '#FFC000', '#654F73', '#0AFFF0'],
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
     },
@@ -204,8 +204,6 @@ series: [{
             ['Chrome', 58.9],
             ['Firefox', 13.29],
             ['Internet Explorer', 13],
-            ['Edge', 3.78],
-            ['Safari', 3.42],
             {
                 name: 'Other',
                 y: 7.61,
@@ -225,7 +223,7 @@ const stackedd={
   title: {
       text: 'Stacked bar chart'
   },
-  colors: [ '#199AB7', '#ED7D31', '#06124e', '#FFC000', '#084056', '#0AFFF0'],
+  colors: [ '#654F73', '#FCAD37', '#91BAC5', '#FFC000', '#084056', '#0AFFF0'],
   xAxis: {
       categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas']
   },

@@ -6,7 +6,7 @@ const Form = () => {
 
         <div className=" mx-2 shadow-sm mb-5 bg-white rounded">
         <div className="px-3">
-        <h3>Form</h3><hr/>
+        <h3>Onboarded forms</h3><hr/>
       </div>
           <form className="px-3">
             <div>

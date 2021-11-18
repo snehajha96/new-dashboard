@@ -4,7 +4,7 @@ import '../../scss/card.scss'
 const CardShopping = () => {
     return (
         <div>
-             <div className="small-box w-100">
+             <div className="small-box w-100 bg-#FCAD37">
               <div className="inner">
                 <h3>150</h3>
                 <p>New Orders</p>

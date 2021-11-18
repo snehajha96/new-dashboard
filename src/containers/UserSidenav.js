@@ -21,9 +21,9 @@ import {
   } from '@coreui/react'
 
   // sidebar nav config
-import Sidemenu from './Sidemenu'
+import UserSideMenu from './UserSidemenu' 
 
-const Sidenav = () => {
+const UserSidenav = () => {
   const dispatch = useDispatch()
   const show = useSelector(state => state.sidebarShow)
   return ( 
@@ -76,14 +76,14 @@ const Sidenav = () => {
         <CImg src="https://image.flaticon.com/icons/png/128/2922/2922506.png" alt="user logo" width={32} height={32}/>
       </div>
       <div className="userName ml-2">
-        <span>Srihari</span>
+        <span>Pradeep</span>
       </div>
      
     </div>
     <CSidebarNav>
 
       <CCreateElement
-        items={Sidemenu}
+        items={UserSideMenu}
         components={{
           CSidebarNavDivider,
           CSidebarNavDropdown,
@@ -97,4 +97,4 @@ const Sidenav = () => {
   )
 }
 
-export default Sidenav;
+export default UserSidenav;
