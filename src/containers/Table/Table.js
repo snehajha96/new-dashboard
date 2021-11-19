@@ -41,7 +41,7 @@ const Table = () => {
       <div>
         <h3>Data Table with Global filter, Sorting and P  agination</h3></div> 
     <div className="col-12 mt-3 table-responsive">
-      <div className="my-2">
+      <div className="my-1">
         <Filter filter={globalFilter} setFilter={setGlobalFilter} />
       </div>
       <table {...getTableProps()} className="table">

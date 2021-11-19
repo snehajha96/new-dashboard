@@ -5,18 +5,30 @@ const UserSideMenu =  [
       _tag: 'CSidebarNavDropdown',
       name: 'Dashboard',
       route: '/dashboard',
-      icon: <i class="fas fa-tachometer-alt fa-lg mr-4"></i>
+      icon: <i class="fas fa-tachometer-alt fa-lg mr-4"></i>,
+      badge: {
+        color: "info",
+        text: "NEW",
+      },
+      _children: [
+        {
+          _tag: "CSidebarNavItem",
+          name: "Dashboard1",
+          to: "/dashboard/dashboard1",
+          icon: <i className="far fa-circle fa-lg mr-4"></i>,
+        },
+      ],
     },
     {
       _tag: 'CSidebarNavTitle',
       _children: ['Menu']
     },
-    {
-      _tag: 'CSidebarNavItem',
-      name: 'User Forms',
-      to: '/dashboard/Forms',
-      icon: <i className="fas fa-table fa-lg mr-4"></i>,
-    },
+    // {
+    //   _tag: 'CSidebarNavItem',
+    //   name: 'User Forms',
+    //   to: '/dashboard/Forms',
+    //   icon: <i className="fas fa-table fa-lg mr-4"></i>,
+    // },
     {
       _tag: 'CSidebarNavItem',
       name: 'Facebook',
