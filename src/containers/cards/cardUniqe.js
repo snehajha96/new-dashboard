@@ -10,7 +10,7 @@ const CardUniqe = () => {
                 <p>Unique Visiter</p>
               </div>
               <div className="icon ">
-              <i class="fas fa-chart-pie"></i>
+              <i className="fas fa-chart-pie"></i>
               </div>
               <a href="#" className="small-box-footer ">
                 More info <i className="fa fa-arrow-circle-right" />

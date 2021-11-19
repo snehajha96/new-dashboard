@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/images/logo.png';
 import logoMinimize from '../assets/images/logoMinimize.png'
-import CIcon from '@coreui/icons-react';
+// import CIcon from '@coreui/icons-react';
 import { useSelector, useDispatch } from 'react-redux'
 
 import {
@@ -15,9 +15,7 @@ import {
     CSidebarNavDropdown,
     CSidebarNavItem,
     CImg,
-    CContainer,
-    CRow,
-    CCol
+ 
   } from '@coreui/react'
 
   // sidebar nav config

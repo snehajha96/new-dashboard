@@ -10,7 +10,7 @@ const CardUser = () => {
                 <p>User </p>
               </div>
               <div className="icon ">
-              <i class="fas fa-user"></i>
+              <i className="fas fa-user"></i>
               </div>
               <a href="#" className="small-box-footer ">
                 More info <i className="fa fa-arrow-circle-right" />

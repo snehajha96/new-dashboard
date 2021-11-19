@@ -61,7 +61,7 @@ const Form = () => {
                 <div className="form-group col-md-4">
                   <label htmlFor="inputState">State</label>
                   <select id="inputState" className="form-control">
-                    <option selected>Choose...</option>
+                    <option defaultValue>Choose...</option>
                     <option>...</option>
                   </select>
                 </div>
@@ -91,7 +91,7 @@ const Form = () => {
 
             <div>
               <div className="form-group">
-                <label htmlfor="exampleFormControlFile1">
+                <label htmlFor="exampleFormControlFile1">
                   Example file input
                 </label>
                 <input

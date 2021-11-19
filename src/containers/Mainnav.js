@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Userdropdown from './Userdropdown'
 import Notification from './Notification'
-import { ReactComponent as logoMain} from './../assets/images/logoMain.svg'
+// import { ReactComponent as logoMain} from './../assets/images/logoMain.svg'
 import {Link} from 'react-router-dom'
 
 import {
@@ -10,11 +10,11 @@ import {
   CToggler,
   CHeaderBrand,
   CHeaderNav,
-  CHeaderNavItem,
-  CHeaderNavLink,
-  CSubheader,
-  CBreadcrumbRouter,
-  CLink
+  // CHeaderNavItem,
+  // CHeaderNavLink,
+  // CSubheader,
+  // CBreadcrumbRouter,
+  // CLink
 } from '@coreui/react';
 import CIcon from '@coreui/icons-react'
 

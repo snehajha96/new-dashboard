@@ -5,7 +5,7 @@ const Sidemenu = [
     _tag: "CSidebarNavDropdown",
     name: "Dashboard",
     route: "/dashboard",
-    icon: <i class="fas fa-tachometer-alt fa-lg mr-4"></i>,
+    icon: <i className="fas fa-tachometer-alt fa-lg mr-4"></i>,
     badge: {
       color: "info",
       text: "NEW",
@@ -57,13 +57,13 @@ const Sidemenu = [
     _tag: "CSidebarNavItem",
     name: "Users",
     to: "/dashboard/charts",
-    icon: <i class="fas fa-chart-pie fa-lg mr-4"></i>,
+    icon: <i className="fas fa-chart-pie fa-lg mr-4"></i>,
   },
   {
     _tag: "CSidebarNavItem",
     name: "Employee",
     to: "/dashboard/Card",
-    icon: <i class="fas fa-id-card fa-lg mr-4"></i>,
+    icon: <i className="fas fa-id-card fa-lg mr-4"></i>,
   },
   // {
   //   _tag: "CSidebarNavItem",

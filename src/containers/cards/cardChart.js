@@ -10,7 +10,7 @@ const CardChart = () => {
                 <p>Bounce Rate</p>
               </div>
               <div className="icon ">
-              <i class="fas fa-chart-bar"></i>
+              <i className="fas fa-chart-bar"></i>
               </div>
               <a href="#" className="small-box-footer bounce">
                 More info <i className="fa fa-arrow-circle-right" />

@@ -331,6 +331,8 @@ export default function HighchartsReactWrapper() {
           />
         </div>
       </div>
+      <div>
+      </div>
 
       {/* <div className="section col-md-6">
         <h3 className="section-title">Stacked Bar Chart</h3>

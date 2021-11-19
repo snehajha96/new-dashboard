@@ -5,7 +5,7 @@ const CustomerSideMenu =  [
       _tag: 'CSidebarNavDropdown',
       name: 'Dashboard',
       route: '/dashboard',
-      icon: <i class="fas fa-tachometer-alt fa-lg mr-4"></i>,
+      icon: <i className="fas fa-tachometer-alt fa-lg mr-4"></i>,
       badge: {
         color: "info",
         text: "NEW",
@@ -33,7 +33,7 @@ const CustomerSideMenu =  [
       _tag: 'CSidebarNavItem',
       name: 'LinkedIn',
       to: '/dashboard/charts',
-      icon: <i class="fas fa-chart-pie fa-lg mr-4"></i>
+      icon: <i className="fas fa-chart-pie fa-lg mr-4"></i>
     },
     // {
     //   _tag: 'CSidebarNavItem',

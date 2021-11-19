@@ -5,10 +5,9 @@ import {
     CDropdownItem,
     CDropdownMenu,
     CDropdownToggle,
-    CProgress
   } from '@coreui/react'
   import CIcon from '@coreui/icons-react'
-import { CardImg } from 'react-bootstrap'
+// import { CardImg } from 'react-bootstrap'
 
 const Notification = () => {
     const itemsCount = 5
